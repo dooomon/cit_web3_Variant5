@@ -1,0 +1,17 @@
+table {
+    width: 100%; /* テーブルの幅をページ全体に広げる */
+    border-collapse: collapse; /* 境界線を重ねる */
+}
+
+td, th {
+    border: 1px solid #333; /* セルの境界線 */
+    padding: 8px; /* セル内のパディング */
+    text-align: center; /* テキストを中央揃え */
+}
+
+.highlight {
+    background-color: yellow; /* ハイライト色 */
+}
+
+
+/* 背景色はJavaScriptで動的に適用されるため、CSSでは指定しない */
